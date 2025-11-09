@@ -37,7 +37,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "655f98d8-d63a-3e8b-8b78-a95505e2fdf2",
-        "name" : "GenerateFlowFile",
+        "name" : "New Name for Processor",
         "type" : "PROCESSOR"
       },
       "zIndex" : 1
@@ -116,7 +116,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "655f98d8-d63a-3e8b-8b78-a95505e2fdf2",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "GenerateFlowFile",
+      "name" : "New Name for Processor",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -207.4823316223751,
@@ -125,6 +125,7 @@
       "properties" : {
         "character-set" : "UTF-8",
         "File Size" : "0B",
+        "generate-ff-custom-text" : "some nonsense goes here.",
         "Batch Size" : "1",
         "Unique FlowFiles" : "false",
         "Data Format" : "Text"
@@ -266,6 +267,6 @@
   "snapshotMetadata" : {
     "author" : "RAFFI.BEGAS@SCIPLAY.COM",
     "flowIdentifier" : "MyFlow",
-    "timestamp" : 1762672903244
+    "timestamp" : 1762673831476
   }
 }
