@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "hatch-datavolo-nar"]
+build-backend = "hatchling.build"
+
+[project]
+name = "processors"
+dynamic = ["version"]
+dependencies = []
+
+authors = [
+    {name="Raffi Begas", email="raffi.begas@sciplay.com"},
+]
+maintainers = [
+    {name="Raffi Begas", email="raffi.begas@sciplay.com"},
+]
+
+[tool.hatch.version]
+path = "src/processors/__about__.py"
+
+[tool.hatch.build.targets.nar]
+packages = ["src/processors"]
